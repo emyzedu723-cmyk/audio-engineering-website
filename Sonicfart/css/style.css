@@ -41,3 +41,20 @@ header {
     font-weight: bold;
     color: #fff;
 }
+
+.nav links {
+    list-style: none;
+
+    display: flex;
+    gap: 30px;
+}
+
+
+.nav links a {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
