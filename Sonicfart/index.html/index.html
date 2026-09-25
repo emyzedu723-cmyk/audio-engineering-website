@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sonicfart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+     <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Sonicfart
+            </div>
+
+            <ol class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portifolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </nav>
+     </header>
+
+
+     <!-- Hero Section -->
+      <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">PROFESSIONAL AUDIO ENGINEERING</p>
+
+            <h1>
+                Your Sound. <br>
+                Our Enterprise.
+            </h1>
+
+            <p>
+                We are a team of professional audio engineers dedicated to providing top-notch sound solutions for your projects. From recording to mixing and mastering, we ensure your audio stands out.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="services.html" class="btn">Our Services</a>
+
+                <a href="contact.html" class="secondary-btn">
+                    Book a session
+                </a>
+            </div>
+
+        </div>
+
+
+        </section>
+            
+        <!-- Introduction -->
+         <section class="intro">
+
+            <div class="intro-content">
+
+                <h2>Welcome to Sonicfart</h2>
+
+                <p>
+                    At Sonicfart, we believe that sound is an art form. Our team of experienced audio engineers is passionate about creating exceptional audio experiences for our clients. Whether you're a musician, podcaster, or filmmaker, we have the expertise to bring your vision to life.
+                </p>
+
+                <a href="about.html" class="btn">Learn More About Us</a>
+
+                </div>
+
+         </section>
+         
+         
+         <!-- Services Section -->
+         <section class="services">
+            <p class="section-label">WHAT WE DO</p>
+
+            <h2>Our Audio Services</h2>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <h3>Recording</h3>
+                    <p>State-of-the-art recording facilities for musicians, voiceovers, and more.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Mixing</h3>
+                    <p>Professional mixing services to ensure your tracks sound polished and balanced.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Mastering</h3>
+                    <p>Finalizing your audio with mastering services that enhance clarity and impact.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Live Sound </h3>
+                    <p>Professional live sound engineering for concerts, events, and performances.</p>
+                </div>
+
+        </section>
+        
+        <!-- Table Section -->
+        <section class="table-section">
+            <h2>Our Pricing</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Recording</td>
+                        <td>State-of-the-art recording facilities</td>
+                        <td>1 hour</td>
+                        <td>$100/hr</td>
+                    </tr>
+                    <tr>
+                        <td>Mixing</td>
+                        <td>Professional mixing services</td>
+                        <td>2 hour</td>
+                        <td>$150/hr</td>
+                    </tr>
+                    <tr>
+                        <td>Mastering</td>
+                        <td>Finalizing your audio with mastering services</td>
+                        <td>3 hour</td>
+                        <td>$200/hr</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+<!-- Form Section -->
+        <section class="form-section">
+            <h2>Book Studio session</h2>
+            <form action="submit_form.php" method="post">
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+
+                <label for="telephone">Telephone:</label>
+                <input type="text" id="telephone" name="telephone" required placeholder="(+256) 700 000 000">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="hours">Number of Hours:</label>
+                <input type="number" id="hours" name="hours" min="1" max="10" required>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Book a session</button>
+
+                <p>How did you hear about us?</p>
+                <label>
+                    <input type="checkbox" id="subject" name="subject" required>
+                    <span>Friend or colleague</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="subject2" name="subject" required>
+                    <span>Online advertisement</span>
+                </label>
+                <label>
+                    <input type="checkbox" id="subject3" name="subject" required>
+                    <span>Social media</span>
+                </label>
+                
+            </form>
+            </section>
+
+<!-- Dropdown section -->
+            <div class="dropdown">
+                <label for="subject">Select service</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose a service</option>
+                    <option value="recording">Recording</option>
+                    <option value="mixing">Mixing</option>
+                    <option value="mastering">Mastering</option>
+                </select>
+            </div>
+
+
+<!-- Radio Buttons -->
+ <p>Client Type:</p>
+ <input type="radio" id="individual" name="client_type" value="individual" required>
+ <label for="individual">Individual</label>
+ <input type="radio" id="business" name="client_type" value="business" required>
+ <label for="business">Business</label>
+
+
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <h2>Ready to Elevate Your Sound?</h2>
+
+            <p>
+                Contact us today to discuss your project and discover how we can help you achieve the perfect sound.
+            </p>
+
+        <h2>Listen to our work </h2>
+        <audio controls>
+            <source src="assets/audio/demo.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <video controls width="320" height="240">
+            <source src="assets/video/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <label for="audio-file">Upload demo file:</label>
+        <input type="file" id="audio-file" name="audio-file" accept="audio/*" required>
+
+            <a href="contact.html" class="btn">Get in Touch</a>
+
+        </section>
+<br/>
+
+        <!-- Image Section -->
+        <section class="image-section">
+            <img src="assets/images/sonicfart.jpg" alt="Sonicfart Studio">
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-content">
+                <p>Follow us on social media:</p>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <p>&copy; 2026 Sonicfart. All rights reserved.</p>
+        </footer>
+
+    </body>
+
+</html>
+
