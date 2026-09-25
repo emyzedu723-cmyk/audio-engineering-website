@@ -1,5 +1,8 @@
 /* ====== GENERAL SETTINGS ====== */
-
+h1 {
+    color: red;
+    font-size: 60px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +45,7 @@ header {
     color: #fff;
 }
 
-.nav links {
+.nav-links {
     list-style: none;
 
     display: flex;
@@ -50,10 +53,29 @@ header {
 }
 
 
-.nav links a {
+.nav-links a {
     color: white;
     font-size: 18px;
 }
+
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+
+/* ====== HERO SECTION ====== */
+
+.hero-content {
+   
+    min-height: 650px;
+
+    display: flex;
+    align-items: center;
+   
+    background-color: #fff;
+}
+
 
 
 
