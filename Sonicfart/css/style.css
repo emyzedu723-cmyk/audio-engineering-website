@@ -1,0 +1,43 @@
+/* ====== GENERAL SETTINGS ====== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ====== NAVIGATION ====== */
+
+header {
+    background-color: #080808;
+    border-bottom: 1px solid #292929;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
